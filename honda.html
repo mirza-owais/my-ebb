@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    color: white;
+}
+.nav>p{
+    padding-top:  16px;
+    font-size: 30px;
+    margin-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.list>ul{
+    display: flex;
+}
+.list>ul>li{
+    position: relative;
+    font-size: 16px;
+    margin: 0px 10px 0px 15px;
+    padding: 24px 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.list>ul>li:hover{
+    background-color: rgba(128, 128, 128, 0.562);
+}
+.main{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main>h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.mainpro{
+    margin-top: 40px;
+    width: 100%;
+    height: 450px;
+    display: flex
+}
+.mainpro2{
+    margin-top: 40px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+.mainpro3{
+    margin-top: 40px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+#img{
+    width: 300px;
+}
+#img>img{
+    width: 300px;
+}
+#img>h3{
+    font-size: 30px;
+    margin: 10px 0px 0px 10px;
+}
+#img>p{
+    margin: 20px 0px 0px 10px;
+    color: gray   
+}
+#img>button{
+    border: none;
+    margin: 15px 0px 0px 80px;
+    padding: 7px 40px 7px 40px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+#img>button:hover{
+    background-color: gray;
+}
+ul ul{
+    list-style: none;
+   font-size: larger;
+    display: block;    
+    visibility:hidden;
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    position: absolute;
+    top: 51px;right:  0px;
+}
+   
+      
+ 
+      
+      .list ul ul li 
+      {
+        background-color: black;
+        text-align: center;
+        line-height: 30px;
+        margin-left: 0px;
+        margin-right: 0%;
+        width: 170px;
+      }
+
+
+
+.nav ul ul {
+    display: block;
+  position:absolute;
+  visibility:hidden;
+  
+
+}
+.list ul ul li:hover
+{
+    background-color: rgba(128, 128, 128, 0.562)    ;
+}
+.list ul li:hover >ul{
+   
+  visibility: visible;
+  
+}
+footer
+{
+    background-color: black;
+    height: 100px;
+}
+</style>
+<body>
+    <div class="nav">
+        <img src="mfdlogo.jpg" alt="">
+        <div class="list">
+            <ul type="none">
+                <li><a href="home.html"> Home </a></li>
+                <li><a target="_blank" href="Affiliation.html"> Affiliations </a></li>
+                <li><a target="_blank" href="Product.html"> Our Products &#8595 </a>
+                    <ul>
+                        <li><a href="BMW.html" target="_blank">BMW</a></li>
+                        <li><a href="Mercedes.html" target="_blank" >Mercedez-benz</a></li>
+                        <li><a href="Audi.html" target="_blank"> Audi </a></li>
+                        <li><a href="Huandai.html" target="_blank" >hyundai</a></li>
+                        <li><a href="KIA.html" target="_blank" >Kia</a></li>
+                        
+                    </ul></li>
+                <li><a target="_blank" href="About us.html"> About Us </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <h1> Honda Cars Available </h1>
+    </div>
+    <div class="one"> 
+        <img src="honda1.jpg" alt="picture">
+    </div>
+    <div class="two"> 
+        <img src="honda2.jpg" alt="picture">
+    </div>
+    <div class="three"> 
+        <img src="honda3.jpg" alt="picture">
+    </div>
+    <div class="four"> 
+        <img src="honda4.jpg" alt="picture">
+    </div>
+    <div class="five"> 
+        <img src="honda5.jpg" alt="picture">
+    </div>
+    <div class="four"> 
+        <img src="honda6.jpg" alt="picture">
+    </div>
+</div>
+<footer>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home </title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    color: white;
+    width: 100%;
+    position: fixed;
+}
+.nav>img{
+    padding-top:  0px;
+    font-size: 100px;
+    margin-left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.list>ul{
+    display: flex;
+}
+.list>ul>li{
+    position: relative;
+    font-size: 16px;
+    margin: 0px 10px 0px 15px;
+    padding: 24px 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.list>ul>li:hover{
+    background-color: rgba(128, 128, 128, 0.562);
+}
+.cntnt{
+    width: 100%;
+    height: 600px;
+    background-size: 1366px 600px;
+    background-image: url(New\ Back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(77, 77, 77);
+    background-blend-mode: multiply;
+}
+.cntnt>h1{
+    font-size: 50px;
+    color: rgb(209, 22, 22);
+    text-align: left;
+    padding-top: 250px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;}
+.cntnt>button{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Times New Roman', Times, serif, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black ;
+    text-align: left;
+    margin: 20px 0px 0px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.cntnt>button:hover{
+    background-color: rgb(109, 8, 8);
+    color: black;
+}
+ul ul{
+    list-style: none;
+   font-size: larger;
+    display: block;    
+    visibility:hidden;
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    position: absolute;
+    top: 51px;right:  0px;
+}
+.list ul ul li 
+{
+    background-color: black;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 0px;
+    margin-right: 0%;
+    width: 170px;
+}
+.list ul li ul li ul li{
+    position: absolute;
+    left: 25px;
+
+}
+.nav ul ul {
+    display: block;
+  position:absolute;
+  visibility:hidden;
+}
+.list ul ul li:hover{
+    background-color: rgba(128, 128, 128, 0.562)    ;
+}
+.list ul li:hover >ul{
+  visibility: visible;
+}
+.list ul img{
+    padding-top: 7px;
+}
+footer{
+    background-color: black;
+    height: 57px;
+}
+ul ul ul 
+{
+    position: absolute;
+    left: 150px;
+}
+</style>
+<body>
+    <body>
+        <div class="nav">
+            <img src="mfdlogo.jpg" alt="">
+            <div class="list">
+                <ul type="none">
+                    <li><a href="home.html" target="_blank"> Home </a>
+                    <ul>
+                        <li>
+                            <a href="BMW.html"> Edit </a>
+                            <ul>
+                                <li>
+                                    <a href="About us.html"> New Edit </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="Audi.html"> Undo </a>
+                        </li>
+                    
+                    </ul>
+                </li>
+                    <li><a  href="Affiliation.html" target="_blank"> Affiliations </a></li>
+                    <li><a  href="Product.html" target="_blank"> Our Products &#8595 </a>
+                        <ul>
+                            <li><a href="BMW.html" target="_blank">BMW</a></li>
+                            <li><a href="Mercedes.html" target="_blank" >Mercedez-benz</a>
+                            
+                                <ul>
+                                    <li><a href="">suzuki</a></li>
+                                    <li><a href="">honda</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="Audi.html" target="_blank"> Audi </a></li>
+                            <li><a href="honda.html" target="_blank">Honda</a></li>
+                            <li><a href="Huandai.html" target="_blank" >Hyundai</a></li>
+                            <li><a href="KIA.html" target="_blank" >KIA</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a target="_blank" href= "About us.html"> About Us </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cntnt">
+            <h1> We Are Affiliated <br> To The Brand & Class You Need!</h1>
+            <button><a href="Register.html">  Register Here  </a></button>
+        </div>
+        <footer>
+
+        </footer>
+    </body>
+</body>
+</html>
